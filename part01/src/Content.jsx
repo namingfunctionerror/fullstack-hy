@@ -6,7 +6,7 @@ export const Content = ({ contentData }) => (
             <Part
                 key={i}
                 name={contentItemData.name}
-                numberOfExercises={contentItemData.numberOfExercises}
+                numberOfExercises={contentItemData.exercises}
             />
         )}
     </>
